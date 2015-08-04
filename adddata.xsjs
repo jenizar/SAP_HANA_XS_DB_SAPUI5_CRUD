@@ -16,6 +16,8 @@ conn.commit();
 $.response.contentType = 'text/plain';
     $.response.setBody('Data Inserted');
     $.response.status = 200;    
+    
 /*
-https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/hihanaxs/adddata.xsjs?email=jenizar@hotmail.com&firstname=john&lastname=eswin&age=41&address=Jakarta        
+Test:
+https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/Contacts/adddata.xsjs?email=jenizar@example.com&firstname=john&lastname=eswin&age=41&address=Jakarta        
 */
