@@ -12,5 +12,6 @@ $.response.contentType = 'text/plain';
 var rs = pstmt.executeQuery();
 
 /*
-https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/hihanaxs/deletedata.xsjs?email=jenizar@hotmail.com
+Test :
+https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/Contacts/deletedata.xsjs?email=jenizar@hotmail.com
 */
