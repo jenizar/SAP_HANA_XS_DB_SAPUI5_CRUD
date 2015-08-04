@@ -26,7 +26,7 @@
             oAppHeader.placeAt("content");
             
             // setting up model
-            var oModel = new sap.ui.model.json.JSONModel("https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/hihanaxs/jsondata.xsjs", false);
+            var oModel = new sap.ui.model.json.JSONModel("https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/Contacts/jsondata.xsjs", false);
             sap.ui.getCore().setModel(oModel);
             
             
@@ -64,7 +64,7 @@
                             oEntry.ADDRESS = content[10].getValue();
                             
                             // Post data to the server
-                            oModel.loadData("https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/hihanaxs/adddata.xsjs", oEntry, true, 'POST');
+                            oModel.loadData("https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/Contacts/adddata.xsjs", oEntry, true, 'POST');
 							location.reload();	
                         }
                     })
@@ -105,7 +105,7 @@
                             oEntry.AGE = content[8].getValue();
                             oEntry.ADDRESS = content[10].getValue();
                             // Post data to the server
-                            oModel.loadData("https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/hihanaxs/editdata.xsjs", oEntry, true, 'POST');						      oUpdateDialog.close();
+                            oModel.loadData("https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/Contacts/editdata.xsjs", oEntry, true, 'POST');						      oUpdateDialog.close();
 								location.reload();								   
                         }
                     })
@@ -146,7 +146,7 @@
                             oEntry.AGE = content[8].getValue();
                             oEntry.ADDRESS = content[10].getValue();
                             // Post data to the server
-                            oModel.loadData("https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/hihanaxs/deletedata.xsjs", oEntry, true, 'POST');	 							   
+                            oModel.loadData("https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/Contacts/deletedata.xsjs", oEntry, true, 'POST');	 							   
 								oDeleteDialog.close();
 								location.reload();	
                         }
