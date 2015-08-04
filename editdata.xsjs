@@ -19,5 +19,6 @@ $.response.contentType = 'text/plain';
     $.response.status = 200;   
     
 /*
-https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/hihanaxs/editdata.xsjs?email=jenizar@hotmail.com&firstname=john&lastname=eswin&age=41&address=Jakarta        
+Test:
+https://s2hanaxs.hanatrial.ondemand.com/p1146569trial/test1/Contacts/editdata.xsjs?email=jenizar@example.com&firstname=john&lastname=eswin&age=41&address=Jakarta        
 */
